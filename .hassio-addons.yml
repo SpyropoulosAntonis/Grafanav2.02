@@ -1,0 +1,9 @@
+---
+channel: stable
+addons:
+  
+  grafana:
+    repository: hassio-addons/addon-grafana/tree/v2.0.2
+    target: grafana
+    image: hassioaddons/grafana-{arch}
+  
